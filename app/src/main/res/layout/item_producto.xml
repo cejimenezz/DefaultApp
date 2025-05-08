@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="201.83dp"
+    android:layout_height="225.46dp"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/azul_card">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imagenProducto"
+            android:layout_width="202dp"
+            android:layout_height="173dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pizza"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textRecomendado"
+            android:layout_width="77.63dp"
+            android:layout_height="15.53dp"
+            android:background="@color/naranja_card"
+            android:gravity="center"
+            android:text="Recomendado ★"
+            android:textColor="@android:color/white"
+            android:textSize="8.1dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/imagenProducto"
+            app:layout_constraintTop_toTopOf="@id/imagenProducto" />
+
+        <TextView
+            android:id="@+id/textNombreProducto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#33000000"
+            android:padding="4dp"
+            android:text="Margarita"
+            android:textAlignment="center"
+            android:fontFamily="@font/robotomedium"
+            android:textColor="@android:color/white"
+            android:textSize="13.5sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textPrecioProducto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textPrecioProducto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#33000000"
+            android:padding="4dp"
+            android:text="€7.50"
+            android:textColor="@android:color/white"
+            android:textSize="13.5sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:fontFamily="@font/robotomedium"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageButton
+            android:id="@+id/buttonAgregar"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/agregarbtnblanco"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

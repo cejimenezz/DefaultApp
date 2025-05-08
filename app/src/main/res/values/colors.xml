@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="azulFondo">#C5D2DA</color>
+    <color name="transparente">#00000000</color>
+    <color name="azulTextoFuerte">#0A0A23</color>
+    <color name="naranjaBoton">#FF6F00</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="grisClaro">#ECECEC</color>
+    <color name="azul_card">#27364B</color>
+    <color name="naranja_card">#FC7229</color>
+</resources>
